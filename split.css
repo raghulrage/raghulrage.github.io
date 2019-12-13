@@ -1,11 +1,4 @@
-/*
-Template Name: Split
-Author: One Page Love
-Author URI: https://onepagelove.com
-Template URI: https://onepagelove.com/split
-Description: Split is a centrally-divided layout for a professional online presence with a big image or video left with alongside content.
-Version: 0.2.2
-*/
+
 /* -- CSS Reset -- */
 
 
@@ -130,13 +123,13 @@ body.page-template-page-fullsingle-split {
         width: 100%;
         height: auto; } }
     .fs-split .split-content .split-content-vertically-center {
-      padding: 60px 80px 0px 80px;
+      padding: 10px 80px 10px 80px;
       max-width: 640px;
       margin-top: 5%;
       margin-bottom: auto; }
       @media (max-width: 1200px) {
         .fs-split .split-content .split-content-vertically-center {
-          padding: 60px; } }
+          padding: 40px 60px 10px 60px; } }
       @media (max-width: 800px) {
         .fs-split .split-content .split-content-vertically-center {
           padding: 40px; } }

@@ -31,6 +31,7 @@ body {
   border-radius: 25px;
   height: 400px;
   transition: all .3s;
+  z-index: 1;
 }
 @media screen and (max-width: 992px) {
   .blog-slider {

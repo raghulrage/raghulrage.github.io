@@ -5,12 +5,20 @@
 
 body {
   background-color: #FFE53B;
-  background-image: linear-gradient(147deg, #3399ff  0%, #000066 74%);
+  background-image: url('https://wallpaperaccess.com/full/168216.jpg');
+  background-size: cover;
   min-height: 100vh;
   font-family: 'Fira Sans', sans-serif;
   display: flex;
 }
-
+#bouncyBall
+{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
 .blog-slider {
 
   width: 95%;

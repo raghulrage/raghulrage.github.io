@@ -21,13 +21,6 @@
           s.setAttribute("src", "https://collectcdn.com/launcher.js"); 
           h.appendChild(s); })(window, document);
 </script>
-<script type="text/javascript">
-      var onloadCallback = function() {
-        grecaptcha.render('html_element', {
-          'sitekey' : '6LfiPdQUAAAAAIyjDfQbNFER5X2Z2YfyoR333WmG'
-        });
-      };
-</script>
 </head>
 <body>
 <!-- partial:index.partial.html -->
@@ -215,7 +208,6 @@
 						<input type="text" name="mail"><br>
 						Comment:<br>
 						<input type="text" name="message" id="comment"  size="50" required=""><br><br>
-						<div id="html_element"></div>
 						<input type="submit" name="Send" value='Send'>
 						<input type="reset" value="Reset">
 				</form>
@@ -290,7 +282,6 @@ function mail(){
 
 
 </script>
-<script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit" async defer>
 
 </body>
 

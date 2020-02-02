@@ -14,7 +14,7 @@ function ballCanvas()
 }
 
 ballCanvas.prototype.density = function(){
-    return Math.floor(Math.sqrt((this.canvas.height, this.canvas.width) * 3));
+    return Math.floor(Math.sqrt((this.canvas.height, this.canvas.width) * 30));
 }
 
 ballCanvas.prototype.redraw = function(width, height)

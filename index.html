@@ -133,17 +133,27 @@
         <span class="blog-slider__code"></span>
         <div class="blog-slider__title">My Works</div>
         <div class="blog-slider__text" >
-        	<b onclick="show('panel')" style="cursor: pointer;">Boxigo</b><br> <p onclick="show('panel')" id="panel" style="display: none;cursor: context-menu;">A website to collaborate all packers and movers to provide service to customer.<br>Worked as a back-end developer and graphic designer.<br><a href="http://boxigo.in/" target="_blank">boxigo.in</a></p>
-        	
-<!--         	<div id="close" ><br></div> -->
+        	          <div class="row">
+            <div class="col-6">
+              <div class="list-group" id="list-tab" role="tablist">
+                <a class="list-group-item list-group-item-action active" id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="home"><small>Face Recognition</small></a>
+                <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="profile"><small>Restaurant Billing System</small></a>
+                <a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list" href="#list-messages" role="tab" aria-controls="messages"><small>Attendance Management System</small></a>
+                <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list" href="#list-settings" role="tab" aria-controls="settings"><small>Kalam</small></a>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="tab-content" id="nav-tabContent">
+                <div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">A console based application, creates dataset and detects the object (face). <a href="https://github.com/raghulrage/Face-Recognition" target="_blank">Face recognition</a></div>
 
-        	<b onclick="show('panel1')" style="cursor: pointer;">Kalam</b><p onclick="show('panel1')" id="panel1" style="display: none;cursor: context-menu;">A dynamic website for inter-college competition, provide students to register events.<br>Worked as a back-end developer and graphic designer.<br><a href="http://kalam.siet.ac.in/" target="_blank">kalam.siet.ac.in</a></p><br>
-        	
-        	<!-- <div id="close"><br></div> -->
+                <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">A console based application, display menu card, gets data and generate report. <a href="https://github.com/raghulrage/Restaurant_billing_system" target="_blank">Restaurant Billing System</a></div>
 
-        	<b onclick="show('panel2')" style="cursor: pointer;">Water Purity Detector</b><p onclick="show('panel2')" id="panel2" style="display: none;cursor: context-menu;">An IOT device which detects the purity of water and alerts authorized device holder if water purity level gets low. <br><a href="https://github.com/raghulrage/Water-purity-detector" target="_blank">Water Purity Detector(Github)</a></p><br>
+                <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">A website to mark attendance, manage students and faculties details. (Flask - RESTAPI)  <a href="https://github.com/raghulrage/Attendance-management-system" target="_blank">Attendance Management</a></div>
 
-        	<b onclick="show('panel3')" style="cursor: pointer;">Face Recognition</b><p onclick="show('panel3')" id="panel3" style="display: none;cursor: context-menu;">Detect the face and recognize the person by existing dataset using <b>OpenCV. &nbsp;</b><a href="https://github.com/raghulrage/Face-Recognition" target="_blank">Face recognition(Github)</a></p>
+                <div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">A dynamic website for inter-college competition provides students to register in events. <a href="http://kalam.siet.ac.in/" target="_blank">kalam.siet.ac.in</a></div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>

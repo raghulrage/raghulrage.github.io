@@ -136,7 +136,7 @@ function spawnBallsFromClick(x, y)
     }
 }
 
-window.requestAnimFrame = (function() {
+window.requestAnimFrame = function() {
     return  window.requestAnimationFrame || 
             window.webkitRequestAnimationFrame || 
             window.mozRequestAnimationFrame || 

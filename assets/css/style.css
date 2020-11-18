@@ -396,6 +396,7 @@ body::-webkit-scrollbar-thumb {
   font-weight: 700;
   line-height: 56px;
   color: #fff;
+    
 }
 
 #hero h2 {
@@ -1087,7 +1088,13 @@ section {
 .contact .info .email p {
   padding-top: 5px;
 }
+.contact .info .email, a{
+  color: #6182ba;
+}
 
+.contact .info .phone, a{
+  color: #6182ba;
+}
 .contact .info .social-links {
   padding-left: 60px;
 }

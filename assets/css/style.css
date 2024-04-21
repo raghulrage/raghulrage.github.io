@@ -642,53 +642,53 @@ section {
 /*--------------------------------------------------------------
 # Why Us
 --------------------------------------------------------------*/
-.why-us .content {
+.about-me .content {
   padding: 60px 100px 0 100px;
 }
 
-.why-us .content h3 {
+.about-me .content h3 {
   font-weight: 400;
   font-size: 34px;
   color: #7d0b26;
 }
 
-.why-us .content h4 {
+.about-me .content h4 {
   font-size: 20px;
   font-weight: 700;
   margin-top: 5px;
 }
 
-.why-us .content p {
+.about-me .content p {
   font-size: 15px;
   color: #848484;
 }
 
-.why-us .img {
+.about-me .img {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center center;
 }
 
-.why-us .accordion-list {
+.about-me .accordion-list {
   padding: 0 100px 60px 100px;
 }
 
-.why-us .accordion-list ul {
+.about-me .accordion-list ul {
   padding: 0;
   list-style: none;
 }
 
-.why-us .accordion-list li + li {
+.about-me .accordion-list li + li {
   margin-top: 15px;
 }
 
-.why-us .accordion-list li {
+.about-me .accordion-list li {
   padding: 20px;
   background: #fff;
   border-radius: 4px;
 }
 
-.why-us .accordion-list a {
+.about-me .accordion-list a {
   display: block;
   position: relative;
   font-family: "Poppins", sans-serif;
@@ -699,66 +699,66 @@ section {
   outline: none;
 }
 
-.why-us .accordion-list span {
+.about-me .accordion-list span {
   color: #e6174e;
   font-weight: 600;
   font-size: 18px;
   padding-right: 10px;
 }
 
-.why-us .accordion-list i {
+.about-me .accordion-list i {
   font-size: 24px;
   position: absolute;
   right: 0;
   top: 0;
 }
 
-.why-us .accordion-list p {
+.about-me .accordion-list p {
   margin-bottom: 0;
   padding: 10px 0 0 0;
 }
 
-.why-us .accordion-list .icon-show {
+.about-me .accordion-list .icon-show {
   display: none;
 }
 
-.why-us .accordion-list a.collapsed {
+.about-me .accordion-list a.collapsed {
   color: #343a40;
 }
 
-.why-us .accordion-list a.collapsed:hover {
+.about-me .accordion-list a.collapsed:hover {
   color: #e6174e;
 }
 
-.why-us .accordion-list a.collapsed .icon-show {
+.about-me .accordion-list a.collapsed .icon-show {
   display: inline-block;
 }
 
-.why-us .accordion-list a.collapsed .icon-close {
+.about-me .accordion-list a.collapsed .icon-close {
   display: none;
 }
 
 @media (max-width: 1024px) {
-  .why-us .content, .why-us .accordion-list {
+  .about-me .content, .about-me .accordion-list {
     padding-left: 0;
     padding-right: 0;
   }
 }
 
 @media (max-width: 992px) {
-  .why-us .img {
+  .about-me .img {
     min-height: 400px;
   }
-  .why-us .content {
+  .about-me .content {
     padding-top: 30px;
   }
-  .why-us .accordion-list {
+  .about-me .accordion-list {
     padding-bottom: 30px;
   }
 }
 
 @media (max-width: 575px) {
-  .why-us .img {
+  .about-me .img {
     min-height: 200px;
   }
 }
